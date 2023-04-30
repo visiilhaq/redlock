@@ -10,7 +10,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc(); 
-    echo "Total = " . $row["Data"];
+    echo "Total Data = " . $row["Data"];
 } else {
     echo "0 results";
 }
